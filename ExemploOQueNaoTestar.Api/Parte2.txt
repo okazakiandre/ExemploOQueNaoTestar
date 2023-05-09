@@ -1,0 +1,12 @@
+﻿O que o teste de unidade não precisa testar?
+==============================================
+
+- Por que esse tema é importante?
+  - não vamos falar de código "intestável"
+  - mesmo os devs mais experientes ficam perdidos
+  - confundimos cobertura com qualidade
+
+- Como esse conhecimento te ajuda?
+  - entender por que não devemos testar tudo
+  - usar seu tempo de forma mais eficiente
+  - melhorar a arquitetura do seu projeto

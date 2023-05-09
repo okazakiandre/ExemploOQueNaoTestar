@@ -1,0 +1,33 @@
+﻿O que o teste de unidade não precisa testar?
+==============================================
+
+- Por que esse tema é importante?
+  - não vamos falar de código "intestável"
+  - mesmo os devs mais experientes ficam perdidos
+  - confundimos cobertura com qualidade
+
+- Como esse conhecimento te ajuda?
+  - entender por que não devemos testar tudo
+  - usar seu tempo de forma mais eficiente
+  - melhorar a arquitetura do seu projeto
+
+- Um pequeno esclarecimento
+  - exemplos de teste de código e de requisito
+
+- Por que não devemos testar tudo com teste de unidade?
+  - 100% de cobertura não garante a qualidade
+  - nem tem como testar todas as linhas de código
+
+- O que não devemos testar?
+  - código que impede a execução automatizada
+    - acesso à rede (banco, apis, serviços)
+    - acesso ao disco (configs, arquivos físicos)
+  - código que não precisa de teste de unidade
+    - apresentação (controllers, views, webforms, razor pages)
+    - get, set, construtores
+    - código de setup (Program, Startup)
+    - código de terceiros
+  - e se precisar testar?
+    - não precisa!
+    - separe as responsabilidades
+    - use outros tipos de teste
